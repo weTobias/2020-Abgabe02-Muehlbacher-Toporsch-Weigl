@@ -20,4 +20,4 @@ Tasks that should be completed. Documentation for every part of code is mandator
 - Create a new implemetation of the queue, that handles different types of data with the use of generics.
 
 **Testing**
-- Create test classes for class and get 100% test coverage.
+- Create test classes for every class and get 100% test coverage.
