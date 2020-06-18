@@ -1,40 +1,23 @@
-# Software Configuration Management #
+# Software Configuration Management Exercise 02 #
 
-**EDUCATION Repository**
+This exercise should teach us how to work with git, maven and generics. For this, we have to complete different 
+tasks on a given project. Additionally, the resulting project should implement a new version of the original project, but with the use of generics.
+It will also have corresponding test classen to get 100% test coverage.
 
-## Test Automation with JUnit5 ##
+## Original Project ##
+The original project is a implementation of the Queue datastructure, without using the Queue collection, provided by Java.
+The implementation handles Queue operations for String elements.
 
-### Queue Exercise ###
+## Generics Queue ##
 
-**Basic Exercise:**
+## Tasks ##
+Tasks that should be completed. Documentation for every part of code is mandatory for every task.
 
-- implement test methods for StringQueue
-- try to get 100% Test Coverage
+**Original Project**
+- Find mistakes and correct them.
 
-the final class structure should be
+**Generics implementation**
+- Create a new implemetation of the queue, that handles different types of data with the use of generics.
 
-- 1 test class
-- 1 source class
-
-*Only Basic Exercise necessary for final exercise in summer term 2019*
-
-**Extended Exercise:**
-
-- create Integer Queue Implementation (new class)
-- implement test methods for IntQueue
-- try to get 100% Test Coverage
-
-the final class structure should be
-
-- 2 test classes
-- 2 source classes
-
-**Advanced Exercise:**
-
-- create new Abstract Class with Generics
-- implement both 
-
-the final class structure should be
-
-- 2 test classes
-- ONLY 1 source class
+**Testing**
+- Create test classes for class and get 100% test coverage.
