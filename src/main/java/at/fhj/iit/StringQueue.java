@@ -19,52 +19,47 @@ public class StringQueue implements IQueue {
 
   @Override
   public boolean offer(String obj) {
-    if (elements.size() != maxSize)
+    if (elements.size() != maxSize){
       elements.add(obj);
-    else
-      return false;
-
-    return true;
+      return true;
+    }
+    return false;
   }
 
   @Override
   public String poll() {
-    String element = peek();
-
-    if (elements.size() != 0) {
+    if (elements.size() != 0){
+      String element = peek();
       elements.remove(0);
+      return element;
     }
-
-    return element;
+    return null;
   }
 
   @Override
   public String remove() {
-    String element = poll();
-    if (element == null)
-      throw new NoSuchElementException("there's no element any more");
-
+    String element = peek();
+    if (element == null){
+      throw new NoSuchElementException("The queue is empty");
+    }
+    elements.remove(0);
     return element;
   }
 
   @Override
   public String peek() {
-    String element;
-    if (elements.size() > 0)
-      element = elements.get(0);
-    else
-      element = null;
-
-    return element;
+    if (elements.size() > 0){
+      return elements.get(0);
+    }
+    return null;
   }
 
   @Override
   public String element() {
-    String element = peek();
-    if (element == null)
-      throw new NoSuchElementException("there's no element any more");
-
-    return element;
+    if (peek() == null){
+      throw new NoSuchElementException("The queue is empty");
+    }
+    return peek();
   }
 
 }
