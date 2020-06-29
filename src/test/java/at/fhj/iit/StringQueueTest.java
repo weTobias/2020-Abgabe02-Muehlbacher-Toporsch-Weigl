@@ -12,7 +12,6 @@ import java.util.NoSuchElementException;
  * Test class for StringQueue unit tests.
  * Tests cover most operations that are possible with String Queue
  *
- * TO IMPLEMENT
  */
 @DisplayName("Testing StringQueue implementation")
 class StringQueueTest {
