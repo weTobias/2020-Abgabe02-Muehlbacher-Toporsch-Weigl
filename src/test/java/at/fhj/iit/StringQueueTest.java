@@ -14,7 +14,7 @@ import java.util.NoSuchElementException;
  *
  */
 @DisplayName("Testing StringQueue implementation")
-class StringQueueTest {
+public class StringQueueTest {
     final int SIZE_1 = 5;
     final int SIZE_2 = 0;
     StringQueue queue1;
