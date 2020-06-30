@@ -14,7 +14,7 @@ import java.util.NoSuchElementException;
  *
  */
 @DisplayName("Testing GenericQueue implementation using Integer objects")
-class GenericQueueIntegerTest {
+public class GenericQueueIntegerTest {
     final int SIZE_1 = 5;
     final int SIZE_2 = 0;
     GenericQueue<Integer> queue1;
