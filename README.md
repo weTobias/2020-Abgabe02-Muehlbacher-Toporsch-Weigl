@@ -14,10 +14,15 @@ The implementation handles Queue operations for String elements.
 Tasks that should be completed. Documentation for every part of code is mandatory for every task.
 
 **Original Project**
-- [ ] Find mistakes and correct them.
+- [x] Find mistakes and correct them.
 
 **Generics implementation**
-- [ ] Create a new implemetation of the queue, that handles different types of data with the use of generics.
+- [x] Create a new implemetation of the queue, that handles different types of data with the use of generics.
 
 **Testing**
-- [ ] Create test classes for every class and get 100% test coverage.
+- [x] Create test classes for every class and get 100% test coverage.
+
+**Maven**
+- [ ] Create Markdown Page for Maven Site.
+- [ ] Add pictures for Developers.
+- [ ] Set up Maven to build without errors.
