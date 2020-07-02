@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class GenericQueue<T>{
+public class GenericQueue <T> implements IQueue <T>{
 
     /**
      * List of all elements within the queue
@@ -39,6 +39,7 @@ public class GenericQueue<T>{
         }
         return false;
     }
+
 
     /**
      * Returns the head (first) element and also deletes it. That is, we cannot get it again.
