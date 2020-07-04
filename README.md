@@ -23,6 +23,6 @@ Tasks that should be completed. Documentation for every part of code is mandator
 - [x] Create test classes for every class and get 100% test coverage.
 
 **Maven**
-- [ ] Create Markdown Page for Maven Site.
+- [x] Create Markdown Page for Maven Site.
 - [ ] Add pictures for Developers.
 - [ ] Set up Maven to build without errors.
