@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 https://maven.apache.org/xsd/decoration-1.8.0.xsd"
+  name="Maven">
+  <bannerLeft>
+    <name>UE2</name>
+    <src>https://maven.apache.org/images/apache-maven-project.png</src>
+    <href>https://maven.apache.org/</href>
+  </bannerLeft>
+  <bannerRight>
+    <src>https://maven.apache.org/images/maven-small.gif</src>
+  </bannerRight>
+
+  <body>
+    <links>
+      <item name="Apache" href="http://www.apache.org/" />
+      <item name="Maven 1.x" href="https://maven.apache.org/maven-1.x/"/>
+      <item name="Maven 2" href="https://maven.apache.org/"/>
+    </links>
+
+    <menu name="Project">
+      <item name="Introduction" href="index.html"/>
+      <item name="Team" href="team.html"/>
+      <item name="Dependencies" href="dependencies.html" />
+      <item name="Dependencies Information" href="dependency-info.html" />
+      <item name="Plugin Managment" href="plugin-management.html"/>
+      <item name="Plugins" href="plugins.html" />
+      <item name="Project info" href="project-info.html" />
+      <item name="Project reports" href="project-reports.html" />
+      <item name="Summary" href="Dependencies.html" />
+    </menu>
+
+    <menu name="Explanations">
+      <item name="Queue Explanation" href="queue-explanation.html"/>
+      <item name="Queue Testing" href="queue-testing.html"/>
+      <item name="Queue areas of application" href="queue-usage.html"/>
+      <item name="Code Coverage" href="coverage.html"/>
+      <item name="Generics" href="generics.html"/>
+    </menu>
+
+  </body>
+</project>
