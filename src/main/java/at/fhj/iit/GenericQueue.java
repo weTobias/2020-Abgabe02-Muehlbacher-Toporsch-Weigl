@@ -29,9 +29,10 @@ public class GenericQueue <T> implements IQueue <T>{
      * Adds the element obj to the queue.
      * If the addition is successful, the method returns true else false.
      *
-     * @param obj is a new element which which wants to get added to the queue
+     * @param obj is a new element which wants to get added to the queue
      * @return whether or not the element was added successfully
      */
+    @Override
     public boolean offer(T obj) {
         if (elements.size() != maxSize){
             elements.add(obj);
@@ -47,6 +48,7 @@ public class GenericQueue <T> implements IQueue <T>{
      *
      * @return the first element of the queue
      */
+    @Override
     public T poll() {
         if (elements.size() != 0){
             T element = peek();
@@ -64,6 +66,7 @@ public class GenericQueue <T> implements IQueue <T>{
      *
      * @return the first element of the queue
      */
+    @Override
     public T remove() {
         T element = peek();
         if (element == null){
@@ -79,6 +82,7 @@ public class GenericQueue <T> implements IQueue <T>{
      *
      * @return the first element of the queue
      */
+    @Override
     public T peek() {
         if (elements.size() > 0){
             return elements.get(0);
@@ -94,6 +98,7 @@ public class GenericQueue <T> implements IQueue <T>{
      *
      * @return the first element of the queue
      */
+    @Override
     public T element() {
         if (peek() == null){
             throw new NoSuchElementException("The queue is empty");
