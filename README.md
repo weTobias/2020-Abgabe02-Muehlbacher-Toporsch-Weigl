@@ -27,3 +27,4 @@ Tasks that should be completed. Documentation for every part of code is mandator
 - [x] Add pictures for Developers.
 - [x] Set up Maven to build without errors.
 - [ ] Add code snippets for Markdown pages.
+- [ ] Get Maven Site JavaDoc export to work correctly.
