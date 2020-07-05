@@ -24,5 +24,6 @@ Tasks that should be completed. Documentation for every part of code is mandator
 
 **Maven**
 - [x] Create Markdown Page for Maven Site.
-- [ ] Add pictures for Developers.
-- [ ] Set up Maven to build without errors.
+- [x] Add pictures for Developers.
+- [x] Set up Maven to build without errors.
+- [ ] Add code snippets for Markdown pages.
