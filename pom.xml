@@ -9,41 +9,43 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>Queue</name>
-  <url>repository name</url>
+  <url>https://github.com/weTobias/2020-Abgabe02-Muehlbacher-Toporsch-Weigl</url>
 
   <developers>
     <developer>
       <id>janmühlbacher</id>
       <name>Jan Mühlbacher</name>
-      <email>email</email>
+      <email>jan.muehlbacher@edu.fh-joanneum.at</email>
       <roles>
         <role>Member</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties>
-        <!--picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl-->
+        <picUrl>images/muehlbacher_avatar.png</picUrl>
       </properties>
     </developer>
     <developer>
       <id>sebastiantoporsch</id>
       <name>Sebastian Toporsch</name>
-      <email>sebastian.toporsch@edu.fh-joanneum.att</email>
-      <roles>
-        <role>Member</role>
-      </roles>
-      <timezone>Europe/Vienna</timezone>
-      <properties/>
-    </developer>
-    <developer>
-      <id>tobiasweigl</id>
-      <name>Tobias Weigl</name>
-      <email>email</email>
+      <email>sebastian.toporsch@edu.fh-joanneum.at</email>
       <roles>
         <role>Member</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties>
-        <!--picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl-->
+        <picUrl>images/toporsch_avatar.jpg</picUrl>
+      </properties>
+    </developer>
+    <developer>
+      <id>tobiasweigl</id>
+      <name>Tobias Weigl</name>
+      <email>tobias.weigl@edu.fh-joanneum.at</email>
+      <roles>
+        <role>Member</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+      <properties>
+        <picUrl>images/weigl_avatar.jpg</picUrl>
       </properties>
     </developer>
   </developers>
